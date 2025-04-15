@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Zoom effect on hover */
+.zoom-effect {
+  transition: transform 0.2s ease-in-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.02);
+}
+
+/* Dark mode styles */
+.dark {
+  background-color: rgb(17 24 39); /* bg-gray-900 */
+  color: rgb(243 244 246); /* text-gray-100 */
+}
+
+.dark .bg-white {
+  background-color: rgb(31 41 55); /* bg-gray-800 */
+}
+
+.dark .text-gray-700 {
+  color: rgb(209 213 219); /* text-gray-300 */
+}
+
+.dark .text-gray-600 {
+  color: rgb(156 163 175); /* text-gray-400 */
+}
+
+.dark .bg-gray-50 {
+  background-color: rgb(17 24 39); /* bg-gray-900 */
+}
+
+.dark .border-gray-300 {
+  border-color: rgb(55 65 81); /* border-gray-700 */
+}
+
+.dark .shadow-md {
+  box-shadow: 0 4px 6px -1px rgb(17 24 39 / 0.1), 0 2px 4px -2px rgb(17 24 39 / 0.1);
+}
+
+.dark .bg-gray-800 {
+  background-color: rgb(3 7 18); /* bg-gray-950 */
+}
